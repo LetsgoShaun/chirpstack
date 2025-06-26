@@ -8,12 +8,8 @@ export default defineConfig({
     sourcemap: true,
   },
   server: {
-    proxy: {
-      "^/api.*": {
-        target: "http://localhost:8080",
-        changeOrigin: true,
-      },
-    },
+    port: 3000,
+    host: true,
   },
   plugins: [react()],
 });

@@ -8,7 +8,6 @@ server: dependencies
 
 dependencies:
 	yarn install
-	yarn add file:../api/grpc-web
 
 clean:
 	rm -rf build
